@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'SFProDisplay-Regular';
+    src: local('FProDisplay-Regular'),
+        url('./SFProDisplay-Regular.woff') format('woff'),
+        url('./SFProDisplay-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SFProDisplay-Regular';
+    src: local('FProDisplay-Regular'),
+        url('./SFProDisplay-Regular.woff') format('woff'),
+        url('./SFProDisplay-Regular.woff2') format('woff2');
+}
+
+*, form input::placeholder {
+    color: white;
+    font-family: 'SFProDisplay-Regular';
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+/* #BG {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: calc(100vw * (3942 / 6048));
+    max-height: 100vh;
+    margin: 0;
+} */
+
+#BG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: auto;
+    min-height: 100%;
+    min-width: 1000px;
+    margin: 0;
+}
+
+.new-bg {
+    color: #5c8a72
+}
+
+main {
+    position: relative;
+    width: 45vw;
+    top: 23vh;
+    left: 27vw;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #FFFFFF;
+    font-family: 'SFProDisplay-Regular';
+    font-weight: bold;
+}
+
+h1 {
+    font-size: calc((1.7 - 1) * 1.2vw + 1.7rem);
+    line-height: calc((1.7 - 1) * 1.2vw + 1.7rem);
+    margin: 0;
+}
+
+h2 {
+    font-size: calc((1.7 - 1) * 1.2vw + .5rem);
+    line-height: calc((1.7 - 1) * 1.2vw + .5rem);
+    margin: 1.5rem 0;
+}
+
+#main-copy {
+    width: 50vw;
+}
+
+form input {
+    background-color: #000000;
+    border: 1px solid #3d3d3d;
+    margin: 5px 0;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 calc(10px);
+}
+
+#name, #email {
+    width: calc(50% - 30px);
+}
+
+#submit {
+    width: 50%;
+    border: 0;
+}
+
+#handle {
+    width: calc(100% - 35px);
+}
+
+#name:hover, #email:hover, #handle:hover {
+    background-color: #254A16;
+    border: 1px solid #254A16;
+}
+
+label {
+    display: block;
+    font-size: calc((1.5 - 1) * 1.2vw + .3rem);
+    line-height: calc((1.5 - 1) * 1.2vw + .6rem);
+}
+
+#submit {
+    color: #000000;
+    background-color: #FFFFFF;
+    margin: 20px 0;
+}
+
+#submit:hover {
+    background-color: #952960;
+    color: white;
+}
+
+
+
